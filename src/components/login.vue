@@ -37,7 +37,8 @@ export default {
             else{
                 this.$axios({
       method: "post",
-      url: " http://127.0.0.1:5000/login", // 接口地址
+      // url: " http://127.0.0.1:5000/login", // 接口地址
+      url: " http://0.0.0.0:8000/login", // 接口地址
       data: {
         content: _this.loginForm   // 传接口参数
       }

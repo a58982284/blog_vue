@@ -51,7 +51,8 @@ export default {
     //   console.log(this.$route.query.articleId)
       this.$axios({
       method: "post",
-      url: " http://127.0.0.1:5000/detail", // 接口地址
+      // url: " http://127.0.0.1:5000/detail", // 接口地址
+      url: " http://0.0.0.0:8000/detail", // 接口地址
       data: {
         keyword: this.$route.params.uid   // 传接口参数
       }

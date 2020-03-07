@@ -67,7 +67,8 @@ export default {
         submitForm() {
         this.$axios({
       method: "post",
-      url: " http://127.0.0.1:5000/insert", // 接口地址
+      // url: " http://127.0.0.1:5000/insert", // 接口地址
+      url: " http://0.0.0.0:8000/insert", // 接口地址
       data: {
         content: this.html,   // 传接口参数
         title:this.title,

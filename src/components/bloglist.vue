@@ -63,7 +63,8 @@ export default {
     
       this.$axios({
       method: "get",
-      url: " http://127.0.0.1:5000/legendary", // 接口地址
+      // url: " http://127.0.0.1:5000/legendary", // 接口地址
+      url: " http://0.0.0.0:8000/legendary", // 接口地址
       data: {
         keyword: "1"   // 传接口参数
       }
